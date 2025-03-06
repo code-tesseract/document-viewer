@@ -1,11 +1,12 @@
 {
-  "name": "document-viewer",
+  "name": "@tesseract/document-viewer",
   "version": "1.0.1",
-  "description": "A React component to preview document of 'pdf,xls,xlsx,docx', which can automatically identify file types.",
-  "main": "build/bundle.js",
+  "author": "Lambda Tesseract <lambdatesseract@gmail.com>",
+  "description": "Client-side document previewer.",
+  "main": "./build/bundle.js",
   "scripts": {
-    "build": "npx rollup -c",
-    "start": "npx rollup -c -w",
+    "build": "yarn run rollup -c",
+    "start": "yarn run rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +20,6 @@
     "react-file-viewer",
     "react-doc-viewer"
   ],
-  "author": "tesseract",
   "license": "MIT",
   "dependencies": {
     "@handsontable/react": "^12.1.3",
